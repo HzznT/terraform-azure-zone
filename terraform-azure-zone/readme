@@ -1,0 +1,28 @@
+# Secure Landing Zone with Terraform
+
+## Overview
+
+This Terraform project automates the deployment of a secure landing zone in Microsoft Azure. The landing zone is designed to create a well-architected and secure foundation for other resources and workloads.
+
+## Project Structure
+
+The project is organized into modules for better modularity and reusability:
+
+- `networking`: Defines virtual networks, subnets, and VNET peering.
+- `compute`: Placeholder for compute resources (e.g., VMs).
+- `security`: Placeholder for security-related resources (e.g., NSGs, route tables).
+
+## Prerequisites
+
+Before you begin, ensure you have the following:
+
+- [Terraform](https://www.terraform.io/) installed.
+- Azure subscription and credentials configured.
+
+## Getting Started
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/your-username/secure-landing-zone.git
+   cd secure-landing-zone
